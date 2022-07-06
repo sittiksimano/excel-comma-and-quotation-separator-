@@ -3,7 +3,6 @@
 # github Licence: https://github.com/sittiksimano/excel-comma-and-quotation-separator-/blob/main/LICENSE
 # Install ssconvert first : apt-get install ssconvert -y 
 # Without ssconvert the Bash script wont run
-#  
 if [ -e newfile.xlsx ]
 then
 echo "Converting xlsx to csv for readig data"
@@ -17,7 +16,7 @@ while read line
 do
  tr ',' '\n'
 done  >>results.txt
-
+rm newfile.csv
 exec < results.txt
 read harder
 while read line
@@ -26,4 +25,4 @@ tr -d '"' < results.txt > final.txt
 done
 echo -e "Final: \n"
 cat final.txt
-#
+rm results.txt
