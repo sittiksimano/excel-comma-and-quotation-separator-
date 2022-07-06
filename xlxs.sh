@@ -9,7 +9,7 @@ then
 echo "Converting xlsx to csv for readig data"
 ssconvert newfile.xlsx newfile.csv
 else 
-echo "Usage: $0 All text data"
+echo "Usage: $0 newfile.xlsx NB: rename you Excel file into newfile.xlsx first"
 fi
 exec < newfile.csv
 read header
