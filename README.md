@@ -1,6 +1,7 @@
 # excel-comma-and-quotation-separator-
 This bash script will take a excel file and convers it into csv and removes all '"' double quotation and comma ',' and saves the final result in a text file.
-![image](https://user-images.githubusercontent.com/24763414/177537727-2071c3b1-b24d-4c44-a6a7-66660fd16085.png)
+![image](https://user-images.githubusercontent.com/24763414/177538565-6f29b883-7ec9-44ad-b1a7-f1210f0dacf3.png)
+
 
  
 # Requirements:
