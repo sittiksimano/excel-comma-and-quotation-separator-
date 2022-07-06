@@ -1,6 +1,6 @@
 #!/bin/bash
 # Author: Abubakkar Khan Fazla Rabbi
-# github Licence: 
+# github Licence: https://github.com/sittiksimano/excel-comma-and-quotation-separator-/blob/main/LICENSE
 # Install ssconvert first : apt-get install ssconvert -y 
 # Without ssconvert the Bash script wont run
 #  
